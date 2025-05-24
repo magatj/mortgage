@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 8501
 
 # Command to run the app
-CMD ["streamlit", "run", "mortgage_calculator.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "mortgage_calculator.py","server.port=8501"]
